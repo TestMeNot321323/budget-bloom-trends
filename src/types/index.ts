@@ -33,3 +33,11 @@ export interface MonthData {
     [categoryId: string]: number;
   };
 }
+
+export interface Budget {
+  id: string;
+  categoryId: string;
+  amount: number;
+  month: number;
+  year: number;
+}
